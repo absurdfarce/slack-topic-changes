@@ -1,11 +1,11 @@
 # slack-topic-changes
-A simple app to gather topic changes from a Slack channel.  There's really not much to it at all... it's kind of a light wrapper around the [nlopes](https://github.com/nlopes/slack) Slack lib for Go.
+A simple app to gather topic changes from a Slack channel.  There's really not much to it at all... it's kind of a light wrapper around the [nlopes](https://github.com/nlopes/slack) Slack lib for Go.  You will probably need at least Go 1.11 in order to make use of the [module system](https://github.com/golang/go/wiki/Modules).
 
 ## An example
-> $ ./slack-topic-changes
-> 2018-09-09 08:30:00 -0600 CST: someuser set topic to 'Oh yah, another topic'
-> 2018-09-08 08:20:00 -0600 CST: someuser set topic to 'Look, it's a new topic!'
-> 2018-09-07 08:10:00 -0600 CST: someuser set topic to 'What are topics?'
+> $ ./slack-topic-changes  
+> 2018-09-09 08:30:00 -0600 CST: someuser set topic to 'Oh yah, another topic'  
+> 2018-09-08 08:20:00 -0600 CST: someuser set topic to 'Look, it's a new topic!'  
+> 2018-09-07 08:10:00 -0600 CST: someuser set topic to 'What are topics?'  
 > ...
 
 ## Steps to make this work
